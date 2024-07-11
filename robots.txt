@@ -1,0 +1,16 @@
+User-agent: *
+Disallow: /?cid=44
+Disallow: /category/entertain/
+Disallow: /wp-content/uploads/2021/06/pinnacle-sponsorhisp-and-info-brochure-june2021.1.pdf
+Disallow: /category/uncategorized/
+Disallow: /2945-2/
+Disallow: /tag/public-demonstration/
+Disallow: /timeline/a-new-time-story/
+Disallow: /tag/led-lights/
+Disallow: /tag/drones/
+Disallow: /tag/drone-light-shows/
+Disallow: /tag/usa/
+Disallow: /blog-posts/2/
+Disallow: /ufaq/why-do-we-use-it/
+
+Sitemap: https://pinnacledronelightshows.com/sitemap.xml

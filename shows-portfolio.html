@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shows Portfolio - Pinnacle Drone Light Shows</title>
+    <meta name="description" content="Visit our portfolio and discover the artistry of our Drone Light Shows. Mesmerizing displays for sports events, weddings, concerts, and more.">
+    <link rel="icon" type="image/x-icon" href="./resources/images/favicon.ico">
+    <meta name="twitter:card" content="summary"></meta>
+    <!-- Stylesheets -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/general-styles-min.css" />
+    <link rel="stylesheet" href="css/shows-portfolio-min.css" />
+    <!-- Contentful -->
+    <script
+    src="https://cdn.jsdelivr.net/npm/contentful@7.0.5/dist/contentful.browser.min.js"
+    charset="utf-8"
+    ></script>
+    <script>
+        var exports = {}; // fix because 'exports' is not defined in rich-text bundle below
+    </script>
+    <!-- Meta Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '365245175829373');
+      fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=365245175829373&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JJ47Z0F5J7"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-JJ47Z0F5J7');
+    </script>
+    <!-- Hotjar Tracking Code for Pinnacle Drone Light Shows -->
+    <script>
+      (function(h,o,t,j,a,r){
+          h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+          h._hjSettings={hjid:3451605,hjsv:6};
+          a=o.getElementsByTagName('head')[0];
+          r=o.createElement('script');r.async=1;
+          r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+          a.appendChild(r);
+      })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg p-0">
+        <div class="container-fluid">
+          <div class="logo-container">
+              <a href="/" aria-label="Home"><img id="logo" src="resources/images/logo.png" alt="logo"></a>
+          </div>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <a href="/" class="nav-item"><li>Home</li></a>
+              <a href="/about.html" class="nav-item"><li>About Us</li></a>
+              <a href="/blog-posts.html" class="nav-item"><li>Blog</li></a>
+              <a href="/frequently-asked-questions.html" class="nav-item"><li>FAQ</li></a>
+              <li class="dropdown">
+                <a class="nav-link nav-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  More
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="/shows-portfolio.html">Shows Portfolio</a></li>
+                  <li><a class="dropdown-item" href="/behind-the-scenes.html">Behind the Scenes</a></li>
+                  <li><a class="dropdown-item" href="/featured-shows.html">Featured Shows</a></li>
+                  <li><a class="dropdown-item" href="/maintaining-the-drones.html">Maintaining the Drones</a></li>
+                  <li><a class="dropdown-item" href="/training-and-education.html">Training and Education</a></li>
+                  <li><a class="dropdown-item" href="/sponsorship.html">Sponsorship</a></li>
+                  <li><a class="dropdown-item" href="/we-are-hiring.html">Join Our Team</a></li>
+                  <li><a class="dropdown-item" href="/thank-you.html">Thank You</a></li>
+                </ul>
+              </li>
+              <a href="/contact.html" class="nav-item"><li>Contact Us</li></a>
+            </ul>
+          </div>
+        </div> 
+      </nav>
+    </header>
+      
+    
+    <main>
+        <div class="row m-0" id="portfolios-container">
+
+          <!-- Outdoor Shows -->
+          <section class="col-12 position-absolute translate-100" id="outdoor-shows">
+            <h3 class="portfolio-title">High Flying <span>Drone Light Shows</span></h3>
+            <div class="d-flex justify-content-end">
+              <button id="indoor-button" class="portfolio-change-button">Immersive Interactive Shows <i class="fa-solid fa-arrow-left fa-lg ps-3"></i></button>
+            </div>
+            <article class="upcoming-shows">
+              <div class="d-flex">
+                <h3>UPCOMING SHOWS</h3>
+                <div class="w-75 ps-5">
+                  <hr>
+                </div>
+              </div>
+
+              <!-- 
+                Upcoming Shows - High Flying
+               -->
+
+            </article>
+            
+            <article class="latest-shows">
+              <div class="d-flex">
+                <h3>COMING SOON</h3>
+                <div class="w-75 ps-5">
+                  <hr>
+                </div>
+              </div>
+
+              <div class="row">
+
+                <!-- 
+                  Coming Soon - High Flying
+                 -->
+
+              </div>
+            </article>
+
+            <article class="past-shows latest-shows">
+              <div class="d-flex">
+                <h3>PAST SHOWS</h3>
+                <div class="w-75 ps-5">
+                  <hr>
+                </div>
+              </div>
+
+              <div class="row">
+
+                <!-- 
+                  Past Shows - High Flying
+                 -->
+
+              </div>
+            </article>
+          </section>
+
+          <section class="col-12 position-sticky" id="splash-page">
+             <div class="background-gradient"></div>
+
+            <article class="intro">
+                <h1>Shows Portfolio</h1>
+
+                <p class="fs-4 fw-lighter text-center pt-3">Select a portfolio and explore the magic!</p>
+            </article>
+
+            <article class="row justify-content-around" id="portfolios-intro">
+                <div class="col-11 col-md-5 mb-5 mb-md-0 row__outdoor-shows blink" id="outdoor-intro">
+                    <h2>High Flying <span>Drone Light Shows</span></h2>
+                </div>
+                <div class="col-11 col-md-5 mb-5 mb-md-0 row_indoor-shows blink1" id="indoor-intro">
+                    <h2>Immersive Interactive <span>Drone Light Shows</span></h2>
+                </div>
+            </article>
+
+          </section>
+          
+          <!-- Indoor Shows -->
+          <section class="col-12 position-absolute translate100" id="indoor-shows">
+            <h3 class="portfolio-title">Immersive Interactive <span>Drone Light Shows</span></h3>
+            <div class="d-flex justify-content-start">
+              <button id="outdoor-button" class="portfolio-change-button"><i class="fa-solid fa-arrow-right fa-lg pe-3"></i> High Flying Shows</button>
+            </div>
+            <article class="upcoming-shows">
+              <div class="d-flex">
+                <h3>UPCOMING SHOWS</h3>
+                <div class="w-75 ps-5">
+                  <hr>
+                </div>
+              </div>
+            
+                <!-- 
+                  Ucoming Shows - Immersive Interactive
+                 -->
+
+            </article>
+            
+            <article class="latest-shows">
+              <div class="d-flex">
+                <h3>COMING SOON</h3>
+                <div class="w-75 ps-5">
+                  <hr>
+                </div>
+              </div>
+
+              <div class="row">
+                <!-- 
+                  Coming Soon - Immersive Interactive
+                 -->
+
+              </div>
+            </article>
+
+            <article class="past-shows latest-shows">
+              <div class="d-flex">
+                <h3>PAST SHOWS</h3>
+                <div class="w-75 ps-5">
+                  <hr>
+                </div>
+              </div>
+
+              <div class="row">
+                <!-- 
+                  Past Shows Events - Immersive Interactive
+                 -->
+              </div>
+            </article>
+
+          </section>
+
+        </div>
+        
+    </main>
+
+    <footer>
+      <div class="footer-nav d-flex flex-row justify-content-center">
+        <nav class="col-12 col-md-6 col-lg-5 d-flex">
+          <a href="/about.html" class="col-4 footer-nav__link"><li>About Us</li></a>
+          <a href="/frequently-asked-questions.html" class="col-4 footer-nav__link"><li>FAQ</li></a>
+          <a href="/contact.html" class="col-4 footer-nav__link"><li>Contact Us</li></a>
+        </nav>
+      </div>
+
+      <div class="footer-nav d-flex flex-row justify-content-center">
+        <nav class="col-12 col-md-4 d-flex justify-content-around">
+          <a href="https://www.facebook.com/profile.php?id=100081612397903" aria-label="Facebook" class="col-2 text-decoration-none d-flex justify-content-center align-items-center">
+            <span class="d-none">Facebook</span>
+            <i class="fa-brands fa-facebook fa-lg social-icon"></i>
+          </a>
+          <a href="https://youtube.com/channel/UCub_Ii2zEGzIhU4ElS57gbA" aria-label="Youtube" class="col-2 text-decoration-none d-flex justify-content-center align-items-center">
+            <span class="d-none">Youtube</span>
+            <i class="fa-brands fa-youtube fa-lg social-icon"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/john-eric-henry/" aria-label="Linkedin" class="col-2 text-decoration-none d-flex justify-content-center align-items-center">
+            <span class="d-none">Linkedin</span>
+            <i class="fa-brands fa-linkedin fa-lg social-icon"></i>
+          </a>
+          <a href="https://twitter.com/DroneLightShows" aria-label="Twitter" class="col-2 text-decoration-none d-flex justify-content-center align-items-center">
+            <span class="d-none">Twitter</span>
+            <i class="fa-brands fa-twitter fa-lg social-icon"></i></i>
+          </a>
+          <a href="https://www.instagram.com/pinnacledronelightshows/" aria-label="Instagram" class="col-2 text-decoration-none d-flex justify-content-center align-items-center">
+            <span class="d-none">Instagram</span>
+            <i class="fa-brands fa-instagram fa-lg social-icon"></i></i>
+          </a>
+        </nav>
+      </div>
+
+      <div class="logo-container">
+        <img src="/resources/images/logo.png" alt="logo">
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://kit.fontawesome.com/8b66328b44.js" crossorigin="anonymous"></script>
+    <script type="module" src="/js/contentful.js"></script>
+    <script type="module" src="./js/shows-portfolio-min.js"></script>
+  </body>
+</html>
